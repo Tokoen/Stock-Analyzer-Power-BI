@@ -39,7 +39,7 @@ A Python script is used to generate financial data in CSV format using the `yfin
    ```
 2. Run the script:
    ```sh
-   python script.py
+   python getData.py
    ```
 3. Alternatively, run the provided `.exe` file.
 4. Enter the stock ticker when prompted.
