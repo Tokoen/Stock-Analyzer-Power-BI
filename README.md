@@ -1,4 +1,4 @@
-# Stock Analyzer Power BI Template
+# Stock Analyzer in Power BI
 
 ## Overview
 This Power BI template provides a comprehensive financial overview of individual stocks using data extracted via a Python script. The template consists of three key pages:
