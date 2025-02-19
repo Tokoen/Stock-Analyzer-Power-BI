@@ -29,7 +29,7 @@ A Python script is used to generate financial data in CSV format using the `yfin
 
 ## Requirements
 - Windows OS (for `.exe` file) or Python 3.10+
-- `yfinance` and `pandas` libraries (if using Python script)
+- `yfinance`, `pandas` and `tkinter` libraries (if using Python script)
 - Power BI Desktop
 
 ## Running the Python Script
