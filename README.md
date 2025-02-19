@@ -10,7 +10,7 @@ This Power BI template provides a comprehensive financial overview of individual
 ### Data Extraction
 A Python script is used to generate financial data in CSV format using the `yfinance` library. The script:
 - Prompts the user for a stock ticker.
-- Fetches the last 5 years of financial data, including stock price, revenue, net income, assets, liabilities, free cash flow, dividends, and outstanding shares.
+- Fetches the last 4 years of financial data, including stock price, revenue, net income, assets, liabilities, free cash flow, dividends, and outstanding shares.
 - Saves the extracted data as a CSV file in the `Financials` directory.
 
 ### Importing Data into Power BI
@@ -47,13 +47,14 @@ A Python script is used to generate financial data in CSV format using the `yfin
 
 ## Notes
 - Ensure the stock ticker is valid before running the script.
-- The template currently supports individual stocks but can be expanded for more complex analysis.
-- Additional pages for sector comparison and risk assessment further enhance decision-making.
+- The script does not work for stocks that have limited data (<4 years) or that have recently introduced dividends.
+- An example analysis has been provided in the 'Analysis' folder.
 
-## Future Enhancements
-- Automate stock sector classification.
-- Integrate real-time data refresh in Power BI.
-- Expand risk assessment metrics.
+## Screenshots
+![GIS analysis-1](https://github.com/user-attachments/assets/fb39296e-29ab-4a79-b23d-d5d7d0de1553)
+![GIS analysis-2](https://github.com/user-attachments/assets/3c766522-217c-4426-8537-d67aac954e7c)
+![GIS analysis-3](https://github.com/user-attachments/assets/6eaa49cd-f4be-4e42-8a01-371f32826a9a)
+
 
 **Enjoy analyzing your stocks with Power BI!**
 
