@@ -50,11 +50,10 @@ A Python script is used to generate financial data in CSV format using the `yfin
 - The script does not work for stocks that have limited data (<4 years) or that have recently introduced dividends.
 - An example analysis on General Mills (GIS) has been provided in the 'Analysis' folder, as well as screenshots below.
 
-**Enjoy analyzing your stocks with Power BI!**
-
 ## Screenshots
 ![GIS analysis-1](https://github.com/user-attachments/assets/fb39296e-29ab-4a79-b23d-d5d7d0de1553)
 ![GIS analysis-2](https://github.com/user-attachments/assets/3c766522-217c-4426-8537-d67aac954e7c)
 ![GIS analysis-3](https://github.com/user-attachments/assets/6eaa49cd-f4be-4e42-8a01-371f32826a9a)
 
+**Enjoy analyzing your stocks with Power BI!**
 
