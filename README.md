@@ -14,10 +14,10 @@ A Python script is used to generate financial data in CSV format using the `yfin
 - Saves the extracted data as a CSV file in the `Financials` directory.
 
 ### Importing Data into Power BI
-1. Run the Python script or use the provided executable (`.exe`) file to generate CSV files for the desired stock tickers.
+1. Run the Python script or use the provided executable (`.exe`) file to generate CSV files for 4 stocks in the same sector (including the one you want to analyze).
 2. Open the Power BI template.
 3. Import the generated CSV files into Power BI.
-4. Modify the **Stock** and **Stock Sector** tables to reflect the imported stock tickers.
+4. Modify the **Stock** and **Stock Sector** tables as well as the measures to reflect the imported stock tickers.
 5. Refresh the dataset to populate all visualizations.
 
 ## Features
