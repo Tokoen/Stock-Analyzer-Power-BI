@@ -18,7 +18,7 @@ A Python script is used to generate financial data in CSV format using the `yfin
 2. Open the Power BI template.
 3. Import the generated CSV files into Power BI.
 4. Modify the **Stock** table by replacing the words "Ticker" twice with the stock ticker you want to analyze.
-5. Do the same for the **Stock Sector** table, but this table has multiple lines where this can be done, use the first for the stock you want to analyze, and the remaining ones for the ones you want to compare it to. 
+5. Do the same for the **Stock Sector** table, however, this table has multiple lines where this can be done. Use the first for the stock you want to analyze, and the remaining ones for the ones you want to compare it to. 
 6. Refresh the dataset to populate all visualizations.
 
 ## Features
