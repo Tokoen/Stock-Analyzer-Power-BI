@@ -17,8 +17,9 @@ A Python script is used to generate financial data in CSV format using the `yfin
 1. Run the Python script or use the provided executable (`.exe`) file to generate CSV files for stocks in the same sector.
 2. Open the Power BI template.
 3. Import the generated CSV files into Power BI.
-4. Modify the **Stock** and **Stock Sector** table by replacing the words "Ticker" twice with the stock ticker you want to analyze. The **Stock Sector** table has multiple lines where this can be done, use the first for the stock you want to analyze, and the remaining ones for the ones you want to compare it to. In the template this fits up to 4 stocks, but more can be added by copying the code.
-5. Refresh the dataset to populate all visualizations.
+4. Modify the **Stock** table by replacing the words "Ticker" twice with the stock ticker you want to analyze.
+5. Do the same for the **Stock Sector** table, but this table has multiple lines where this can be done, use the first for the stock you want to analyze, and the remaining ones for the ones you want to compare it to. 
+6. Refresh the dataset to populate all visualizations.
 
 ## Features
 - **Stock Price Trend:** Visualizes price movements over the last four years.
@@ -47,6 +48,7 @@ A Python script is used to generate financial data in CSV format using the `yfin
 
 ## Notes
 - Ensure the stock tickers are valid before running the script.
+- The **Stock Sector** table fits up to 4 stocks, but more can be added by copying the code.
 - An example analysis on General Mills (GIS) has been provided as a reference in the 'Analysis' folder, as well as screenshots below.
 
 ## Screenshots
