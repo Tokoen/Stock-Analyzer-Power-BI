@@ -59,7 +59,8 @@ A Python script is used to generate financial data in CSV format using the `yfin
 ![page 2](https://github.com/user-attachments/assets/5cc50988-18f1-4b62-a18c-2255a7a0b8de)
 
 - Page 3: 
-![page 3](https://github.com/user-attachments/assets/f2be3f18-351d-43fd-b138-821a1cce4ced)
+![page 3](https://github.com/user-attachments/assets/a7a73ca3-aaf9-44ec-a2a6-4abfe267f310)
+
 
 **Enjoy analyzing your stocks with Power BI!**
 
