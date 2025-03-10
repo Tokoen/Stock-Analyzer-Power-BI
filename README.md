@@ -9,16 +9,17 @@ This Power BI template provides a comprehensive financial overview of individual
 ## How It Works
 ### Data Extraction
 A Python script is used to generate financial data in CSV format using the `yfinance` library. The script:
-- Prompts the user for a stock ticker.
-- Fetches the last 4 years of financial data, including stock price, revenue, net income, assets, liabilities, free cash flow, dividends, and outstanding shares.
+- Prompts the user for stock tickers.
+- Fetches the last 4 complete years of financial data, including stock price, revenue, net income, assets, liabilities, free cash flow, dividends, and outstanding shares.
 - Saves the extracted data as a CSV file in the `Financials` directory.
 
 ### Importing Data into Power BI
-1. Run the Python script or use the provided executable (`.exe`) file to generate CSV files for 4 stocks in the same sector (including the one you want to analyze).
+1. Run the Python script or use the provided executable (`.exe`) file to generate CSV files for stocks in the same sector.
 2. Open the Power BI template.
 3. Import the generated CSV files into Power BI.
-4. Modify the **Stock** and **Stock Sector** tables as well as the measures to reflect the imported stock tickers.
-5. Refresh the dataset to populate all visualizations.
+4. Modify the **Stock** table by replacing the words "Ticker" twice with the stock ticker you want to analyze.
+5. Do the same for the **Stock Sector** table, however, this table has multiple lines where this can be done. Use the first for the stock you want to analyze, and the remaining ones for the ones you want to compare it to. 
+6. Refresh the dataset to populate all visualizations.
 
 ## Features
 - **Stock Price Trend:** Visualizes price movements over the last four years.
@@ -30,35 +31,36 @@ A Python script is used to generate financial data in CSV format using the `yfin
 ## Requirements
 - Windows OS (for `.exe` file) or Python 3.10+
 - `yfinance`, `pandas` and `tkinter` libraries (if using Python script)
-- Power BI Desktop
+- Power BI Desktop (Free version works)
 
 ## Running the Python Script
-1. If using Python, install the required libraries:
+1. Run the `getFinancials.exe` file.
+2. Alternatively, if using Python, install the required libraries:
    ```sh
    pip install yfinance pandas tkinter
    ```
-2. Run the script:
+3. Run the script:
    ```sh
-   python getData.py
+   python getFinancials.py
    ```
-3. Alternatively, run the provided `.exe` file.
-4. Enter the stock ticker when prompted.
-5. The script will generate a CSV file in the `Financials` folder.
+4. Enter the stock tickers when prompted.
+5. The script will generate CSV files in the `Financials` folder.
 
 ## Notes
-- Ensure the stock ticker is valid before running the script.
-- The script does not work for stocks that have limited data (<4 years) or that have recently introduced dividends.
+- Ensure the stock tickers are valid before running the script.
+- The **Stock Sector** table fits up to 4 stocks, but more can be added by copying the code.
 - An example analysis on General Mills (GIS) has been provided as a reference in the 'Analysis' folder, as well as screenshots below.
 
 ## Screenshots
 - Page 1:
-![GIS analysis-1](https://github.com/user-attachments/assets/042a0a4b-2ee7-415c-976a-acbdf56405c7)
+![page 1](https://github.com/user-attachments/assets/be087d87-4b05-4937-a522-1901ca7ce879)
 
 - Page 2: 
-![GIS analysis-2](https://github.com/user-attachments/assets/c9565752-135b-4256-8ff9-b452b4d414c5)
+![page 2](https://github.com/user-attachments/assets/5cc50988-18f1-4b62-a18c-2255a7a0b8de)
 
 - Page 3: 
-![GIS analysis-3](https://github.com/user-attachments/assets/ff62a91a-b36d-49cd-bccc-4509abe4ad24)
+![page 3](https://github.com/user-attachments/assets/a7a73ca3-aaf9-44ec-a2a6-4abfe267f310)
+
 
 **Enjoy analyzing your stocks with Power BI!**
 
